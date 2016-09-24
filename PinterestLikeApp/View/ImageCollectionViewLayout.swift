@@ -77,7 +77,7 @@ class ImageCollectionViewLayout: UICollectionViewLayout {
             
             let bodyHeight: CGFloat  = self.delegate.heightForBodyAtIndexPath(
                 self.collectionView!, indexPath: indexPath, width: cellWidth)
-            let cellHeight: CGFloat  = imageHeight + bodyHeight + 50
+            let cellHeight: CGFloat  = imageHeight + bodyHeight
             
             let cellFrame: CGRect = CGRectMake(cellOriginXList[column],
                                                currentCellOriginYList[column],
